@@ -12,5 +12,16 @@ and open the template in the editor.
     </head>
     <body>
         <div>Result</div>
+        <hr>
+        Nama Barang : <b th:text="${nama}"></b><br>
+        Harga Barang : <b th:text="${hargaAwal}"></b><br>
+        Jumlah Item : <b th:text="${jmlh}"></b><br>
+        Total Harga : <b th:text="${totalAwal}"></b><br>
+        Diskon : <b th:text="${diskon}"></b><br>
+        Total Akhir : <b th:text="${totalAkhir}"></b><br>
+        ------------------------------<br>
+        Bayar : <b th:text="${tunai}"></b><br>
+        ------------------------------<br>
+        Kembalian : <b th:text="${kembalian}"></b><br>
     </body>
 </html>
